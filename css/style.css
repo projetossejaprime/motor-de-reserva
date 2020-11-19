@@ -622,7 +622,7 @@ section{
         width: 90% !important;  
 
         position: absolute !important;
-        right: -10px;
+        right: -20px;
         bottom: -180px;
         z-index: 0 !important;
     }
@@ -1158,8 +1158,8 @@ section{
     .section-3 .imagem-s3,
     .section-4 .imagem-s4,
     .section-5 .imagem-s5,
-    .section-6 .imagem-s6,
     .section-7 .imagem-s7,
+    .section-8 .imagem-s8, 
     .section-11 .imagem-s11,
     .section-13 .imagem-s13,
     .section-14 .imagem-s14,
@@ -1169,7 +1169,7 @@ section{
         align-items: center !important;
         justify-content: center !important;
         
-        height: 50vh;
+        height: 60vh;
         max-height: 285px !important;
     }
 
@@ -1177,8 +1177,8 @@ section{
     .section-3 .texto-s3,
     .section-4 .texto-s4,
     .section-5 .texto-s5,
-    .section-6 .texto-s6,
     .section-7 .texto-s7,
+    .section-8 .texto-s8,
     .section-9 .texto-s9,
     .section-10 .texto-s10,
     .section-11 .texto-s11,
@@ -1190,235 +1190,583 @@ section{
         align-items: center !important;
         justify-content: center !important;
         
+        text-align: center !important;
+
         height: 90vh;
-        max-height: 513px !important;
+        max-height: 600px !important;
+
+        padding: 0 15px !important;
     }
+
+        .section-1 .texto-s1 > h2,
+        .section-3 .texto-s3 > h2,
+        .section-4 .texto-s4 > h2,
+        .section-5 .texto-s5 > h2,
+        .section-7 .texto-s7 > h2,
+        .section-8 .texto-s8 > h2,
+        .section-9 .texto-s9 > h2,
+        .section-10 .texto-s10 > h2,
+        .section-11 .texto-s11 > h2,
+        .section-13 .texto-s13 > h2,
+        .section-14 .texto-s14 > h2,
+        .section-15 .texto-s15 > h2{
+            font-size: 2rem !important;
+        }
+
+        .section-1 .texto-s1 > p,
+        .section-3 .texto-s3 > p,
+        .section-4 .texto-s4 > p,
+        .section-5 .texto-s5 > p,
+        .section-7 .texto-s7 > p,
+        .section-8 .texto-s8 > p,
+        .section-9 .texto-s9 > p,
+        .section-10 .texto-s10 > p,
+        .section-11 .texto-s11 > p,
+        .section-13 .texto-s13 > p,
+        .section-14 .texto-s14 > p,
+        .section-15 .texto-s15 > p{
+            font-size: 1rem !important;
+        }
 
     /* Seção 1 Smartphones*/
-
+    
     .section-1 .texto-s1{
-        padding: 20px !important;
-        padding-left: 0;
+        height: 60vh !important;
     }
-
+    
         .texto-s1 > h1{
-            font-size: 2rem;
+            font-size: 3.4rem;
             font-weight: 600;
         }
 
-    /* Seção 2 Smartphones*/
-
-    .section-2{
-        height: auto !important;
-        min-height: unset !important;
-        max-height: unset !important;
-    }
-
-        .titulo-s2 > p{
-            font-size: 1.2rem;
+        .texto-s1 > .destaque-s1{
+            font-size: .8rem;
             font-weight: 500;
+            letter-spacing: .3rem;
+            text-transform: uppercase;
+
+            border-radius: 8px;
+
+            margin: 5px 0;
+            padding: 5px 25px !important;
+        }
+
+        .texto-s1 > p{
+            font-size: 1.4rem;
             text-align: center;
-    
-            width: 90%;
-        }
-    
-        .cards-s2 .card-s2{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-
-            width: 85%;
-            max-width: 330px;
         }
 
-            .card-s2 > h3{
-                text-align: center;
-            }
-    
-            .card-s2 > p{
-                text-align: center;
-            }
-
-        .onda-s3{
-            height: 40px !important;
-        }    
-
-    /* Seção 3 Smartphones*/
-
-    .section-3 .row{
-        display: flex;
-        flex-direction: column-reverse;
-    }
-
-        .imagem-s3 > img{
+        .imagem-s1 > img{
             width: 80% !important;
         }
 
-        .texto-s3 > h2{
-            font-size: 2rem;
-            font-weight: 600;
-            text-align: center;
+    .onda-s2{
+        height: 60px !important;
+    }
 
-            width: 95%;
+    /* Seção 2 Smartphones*/
 
-            margin: 15px 0;
-        }
+    .titulo-s2 > p{
+        font-size: 1rem;
 
-        .texto-s3 > p{
-            font-size: 1.2rem;
-            text-align: center;
+        width: 80% !important;
+    }
 
-            width: 90%;
-        }
+    .cards-s2 > .card-s2{
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center !important;
 
-    /* .onda-s4{
-    } */
+        text-align: center !important;
+    }
 
-    /* Seção 4 Smartphones*/
+    .onda-s3{
+        height: 60px !important;
+    }
 
-    .section-4 .row{
+    /* Seção 3 Smartphones*/
+
+    .section-3 > .row{
         display: flex !important;
         flex-direction: column-reverse !important;
     }
 
-        .imagem-s4 > img{
-            width: 80% !important;
-        }
-
-    .section-4 .texto-s4{
-        padding: 20px !important;
-    }
-
-        .texto-s4 > h2{
-            font-size: 2rem;
-            font-weight: 600;
-            text-align: center;
-
-            width: 95%;
-
+        .texto-s3 > h2{  
+            width: 100%;
+    
             margin: 15px 0;
         }
-
-        .texto-s4 > p{
-            font-size: 1.2rem;
-            text-align: center;
-
-            width: 90%;
+    
+        .texto-s3 > p{
+            width: 95%;
+        }
+    
+    .section-3 .imagem-s3{
+        padding: 0 !important;
+    }
+    
+        .imagem-s3 > img{
+            height: auto;
+            width: 80%;
+            max-width: 660px;
+    
+            position: absolute;
+            right: 0;
+            bottom: 20px;
         }
 
-    .onda-s5{
-        height: 80px !important;
+    .section-3 > .onda-s4{
+        height: 60px !important;
+    }
+
+    /* Seção 4 Smartphones*/
+
+    .section-4 > .row{
+        display: flex !important;
+        flex-direction: column-reverse !important;
+    }
+
+    .section-4 .imagem-s4{
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center !important;
+        
+        height: 90vh;
+    }
+    
+        .imagem-s4 > img{
+            height: auto;
+            width: 80%;
+            max-width: 610px;
+    
+            position: absolute;
+        }
+
+    .section-4 > .onda-s5{
+        height: 60px !important;
     }
 
     /* Seção 5 Smartphones*/
 
-    .section-5 .row{
+    .section-5 > .row{
         display: flex !important;
         flex-direction: column-reverse !important;
     }
 
-        .imagem-s5 > img{
-            width: 70% !important;
-        }
-
-        .texto-s5 > h2{
-            font-size: 2rem;
-            font-weight: 600;
-            text-align: center;
-
-            width: 95%;
-
-            margin: 15px 0;
-        }
-
-        .texto-s5 > p{
-            color: var(--cor-fonte);
-            font-size: 1rem;
-            text-align: center;
-
-            width: 90%;
-        }
-
-        .onda-s5s{
-            height: 80px !important;
-        }
+    .section-5 .imagem-s5{
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center !important;
+        
+        height: 90vh;
+        
+        padding: 0 !important;
     
-    /* Seção 5s */
-
-    .section-5s{
-        height: auto !important;
-        min-height: unset !important;
-        max-height: unset !important;
+        position: relative;
     }
-
-        .titulo-s5s > p{
-            font-size: 1.2rem;
-            font-weight: 500;
-            text-align: center;
     
+        .imagem-s5 > img{
             width: 90%;
-        }
+            max-width: 620px !important;
     
-        .cards-s5s .card-s5s{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-
-            width: 85%;
-            max-width: 330px;
-        }
-
-            .card-s5s > h3{
-                text-align: center;
-            }
-    
-            .card-s5s > p{
-                text-align: center;
-            }
-
-        .onda-s6{
-            height: 40px !important;
+            position: absolute;
+            right: 0;
+            bottom: 0;
         }
 
     /* Seção 6 Smartphones*/
 
-    .section-6 .row{
+    .section-6{
+        max-height: unset !important;
+        height: auto;
+    }
+
+    .section-6 > .row{
         display: flex !important;
         flex-direction: column-reverse !important;
     }
 
-        .imagem-s6 > img{
-            width: 80% !important;
-        }
+    .section-6 .conteudo-s6{
+        display: flex !important;
+        flex-direction: column !important;
+        flex-wrap: wrap !important;
+        align-items: center !important;
+        justify-content: center !important;
+        
+        padding: 15px;
 
-    .section-6 .texto-s6{
-        padding: 0 !important;
+        height: auto !important;
+        min-height: 100vh !important;
     }
 
-        .texto-s6 > h2{
-            font-size: 2rem;
-            font-weight: 600;
-            text-align: center;
+        .conteudo-s6 > .titulo-s6{
+            display: flex !important;
+            flex-direction: column !important;
+            align-items: flex-end !important;
+            justify-content: center !important;
 
             width: 95%;
 
-            margin: 15px 0;
+            margin: 0 auto !important;
         }
 
-        .texto-s6 > p{
+            .titulo-s6 > img{
+                width: 80% !important;
+
+                margin: 15px auto !important;
+            }
+
+            .titulo-s6 > p{
+                font-size: 1.6rem;
+                font-weight: bold;
+                text-align: center !important;
+
+                padding: 0 25px;
+                margin: 15px auto !important;
+            }
+
+        .conteudo-s6 > .cards-s6{
+            display: flex;
+            flex-direction: column !important;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center !important;
+        }
+
+            .cards-s6 > .card-s6{
+                display: flex !important;
+                flex-direction: column !important;
+                align-items: center !important;
+
+                width: 90%;
+
+                margin-right: 0 !important;
+                margin-bottom: 25px;
+            }
+
+                .card-s6 > .icone-card-s6{
+                    display: flex !important;
+                    justify-content: center !important;
+
+                    width: 100%;
+                    margin: 15px 0;
+                }
+
+                    .icone-card-s6 img{
+                        width: 10%;
+                        max-width: unset;
+                        height: auto;
+                    }
+
+                .card-s6 > p{
+                    font-size: 1rem;
+                    font-weight: 400;
+
+                    text-align: center;
+                }
+            
+            .cards-s6 > .btn-s6{
+                font-size: 1.2rem;
+                font-weight: bold;
+                text-transform: uppercase;
+
+                padding: 5px 20px;
+                margin: 0 auto !important;
+
+                cursor: pointer;
+                transition: .2s ease-out;
+            }
+
+            .section-6 .imagem-s6{
+                display: flex !important;
+                flex-direction: column !important;
+                align-items: center !important;
+                justify-content: center !important;
+                
+                height: auto !important;
+                min-height: 100vh !important;
+        
+                position: relative;
+            }
+        
+                .imagem-s6 > img{
+                    width: 90% !important;
+        
+                    position: absolute;
+                    bottom: 0;
+                }
+
+    /* Seção pag */
+
+    .section-pag .titulo-pag{
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center !important;
+
+        padding: 30px 20px 0 20px !important;
+    }
+
+        .titulo-pag > small{
+            color: var(--cor-fonte);
             font-size: 1.2rem;
+            font-weight: 600;
             text-align: center;
-
-            width: 90%;
         }
 
-    .onda-s7{
-        height: 80px !important;
+        .titulo-pag > h2{
+            color: var(--cor-fonte);
+            font-size: 3rem;
+            font-weight: 600;
+            text-align: center;
+        }
+
+    .section-7 > .onda-s7{
+        height: 40px !important;
     }
 
     /* Seção 7 Smartphones*/
 
+    .section-7{
+        max-height: unset !important;
+    }
+
+    .section-7 > .row{
+        display: flex !important;
+        flex-direction: column-reverse !important;
+    }
+
+    .section-7 .imagem-s7{
+        padding: 0 !important;
+    
+        position: relative;
+    }
+    
+        .imagem-s7 > img{
+            width: 100%;
+            max-width: unset !important;
+    
+            position: absolute;
+            right: -30px;
+            bottom: -130px;
+        }
  
+    .section-7 > .onda-s8{
+        height: 60px !important;
+
+        position: relative !important;
+        z-index: 1000 !important;
+    }
+
+    /* Seção 8 Smartphones*/
+
+    .section-8{    
+        max-height: unset !important;
+    }
+
+    .section-8 > .row{
+        display: flex !important;
+        flex-direction: column-reverse !important;
+    }
+
+    .section-8 .imagem-s8{
+        padding: 0 !important;
+    
+        position: relative;
+    }
+    
+        .imagem-s8 > img{
+            width: 90% !important;
+        }
+
+    .section-8 > .onda-s9{
+        height: 60px !important;
+    }
+
+    /* Seção 9 Smartphones*/
+
+    .section-9{    
+        max-height: unset !important;
+    }
+
+    .section-9 > .row{
+        display: flex !important;
+        flex-direction: column-reverse !important;
+    }
+
+    .section-9 .imagem-s9{   
+        padding: 0 !important;
+    
+        position: relative;
+    }
+    
+        .imagem-s9 > img{
+            width: 100% !important;
+
+            position: absolute;
+            right: 0;
+        }
+
+    .section-9 > .onda-s10{
+        height: 60px !important;
+    }
+
+    /* Seção 10 Smartphones*/
+
+    .section-10{    
+        max-height: unset !important;
+    }
+
+    .section-10 > .row{
+        display: flex !important;
+        flex-direction: column-reverse !important;
+    }
+
+    .section-10 .imagem-s10{   
+        padding: 0 !important;
+    
+        height: 70vh !important;
+
+        position: relative;
+    }
+    
+        .imagem-s10 > img{
+            width: 100% !important;
+
+            position: absolute;
+            right: 0;
+            bottom: -60px;
+        }
+
+    .section-10 > .onda-s11{
+        height: 60px !important;
+    }
+
+    /* Seção 11 Smartphones*/
+
+    .section-11{    
+        max-height: unset !important;
+    }
+
+    .section-11 > .row{
+        display: flex !important;
+        flex-direction: column-reverse !important;
+    }
+
+    .section-11 .imagem-s11{   
+        padding: 0 !important;
+    
+        height: 70vh !important;
+
+        position: relative;
+    }
+    
+        .imagem-s11 > img{
+            width: 80% !important;
+
+            margin: 0 auto !important;
+        }
+
+    .section-11 > .onda-s11{
+        height: 120px !important;
+    }
+    
+    /* Seção 12 Smartphones*/
+
+        .texto-s12 h2{
+            font-size: 1.6rem;
+
+            width: 100%;
+        }
+
+        .texto-s12 p{
+            font-size: 1.2rem;
+
+            width: 100%;
+        }
+
+    .section-12 > .onda-s13{
+        height: 30px !important;
+    }
+
+    /* Seção 13 Smartphones*/
+
+    .section-13{
+        max-height: unset !important;
+    }
+
+    .section-13 > .row{
+        display: flex !important;
+        flex-direction: column-reverse;
+    }
+
+    .section-13 > .onda-s14{
+        height: 80px !important;
+    }
+
+    /* Seção 14 Smartphones*/
+
+    .section-14{
+        max-height: unset !important;
+    }
+
+    .section-14 > .row{
+        display: flex !important;
+        flex-direction: column-reverse !important;
+    }
+
+    .section-14 .imagem-s14{   
+        padding: 0 !important;
+    
+        height: 70vh !important;
+
+        position: relative;
+    }
+    
+        .imagem-s14 > img{
+            width: 90% !important;
+
+            margin: 0 auto !important;
+
+            position: relative !important;
+            bottom: 0 !important;
+        }
+
+    .section-14 > .onda-s15{
+        height: 80px !important;
+    }
+
+    /* Seção 15 Smartphones*/
+
+    .section-15{
+        max-height: unset !important;
+    }
+
+    .section-15 > .row{
+        display: flex !important;
+        flex-direction: column-reverse !important;
+    }
+
+    /* Seção 16 */
+
+        .titulo-s16 > h2{
+            font-size: 1.6rem;
+            font-weight: bold;
+            text-align: center;
+
+            width: 80%;
+        }
+
+        .cards-s16 .card-s16{
+            width: 90%;
+            max-width: 330px;
+
+            margin: 20px;
+        }
+
 }
 
 /* Tablets */
@@ -1426,36 +1774,12 @@ section{
 
     /* Universais Tablets*/
 
-    .section-1 .texto-s1,
-    .section-3 .texto-s3,
-    .section-4 .texto-s4,
-    .section-5 .texto-s5,
-    .section-6 .texto-s6,
-    .section-7 .texto-s7,
-    .section-9 .texto-s9,
-    .section-10 .texto-s10,
-    .section-11 .texto-s11,
-    .section-13 .texto-s13,
-    .section-14 .texto-s14,
-    .section-15 .texto-s15{
-        display: flex !important;
-        flex-direction: column !important;
-        align-items: center !important;
-        justify-content: center !important;
-        
-        width: 60%;
-        height: 90vh;
-        max-height: 520px;
-
-        margin: 0 auto;
-    }
-
     .section-1 .imagem-s1,
     .section-3 .imagem-s3,
     .section-4 .imagem-s4,
     .section-5 .imagem-s5,
-    .section-6 .imagem-s6,
     .section-7 .imagem-s7,
+    .section-8 .imagem-s8, 
     .section-11 .imagem-s11,
     .section-13 .imagem-s13,
     .section-14 .imagem-s14,
@@ -1465,235 +1789,628 @@ section{
         align-items: center !important;
         justify-content: center !important;
         
-        height: 20vh;
-
-        margin: 40px 0;
-
-        position: relative;
+        height: 60vh;
+        max-height: 285px !important;
     }
 
-    /* Seção 1 Tablets*/
+    .section-1 .texto-s1,
+    .section-3 .texto-s3,
+    .section-4 .texto-s4,
+    .section-5 .texto-s5,
+    .section-7 .texto-s7,
+    .section-8 .texto-s8,
+    .section-9 .texto-s9,
+    .section-10 .texto-s10,
+    .section-11 .texto-s11,
+    .section-13 .texto-s13,
+    .section-14 .texto-s14,
+    .section-15 .texto-s15{
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center !important;
+        
+        text-align: center !important;
 
-    .section-1 .texto-s1{
-        align-items: flex-start !important;
-
-        width: 60%;
+        width: 70%;
+        height: 90vh;
+        max-height: 600px !important;
 
         margin: 0 auto;
-        padding: 20px !important;
-        padding-left: 0;
+        padding: 0 15px !important;
     }
 
+        .section-3 .texto-s3 > h2,
+        .section-4 .texto-s4 > h2,
+        .section-5 .texto-s5 > h2,
+        .section-7 .texto-s7 > h2,
+        .section-8 .texto-s8 > h2,
+        .section-9 .texto-s9 > h2,
+        .section-10 .texto-s10 > h2,
+        .section-11 .texto-s11 > h2,
+        .section-13 .texto-s13 > h2,
+        .section-14 .texto-s14 > h2,
+        .section-15 .texto-s15 > h2{
+            font-size: 2rem !important;
+        }
+
+        .section-3 .texto-s3 > p,
+        .section-4 .texto-s4 > p,
+        .section-5 .texto-s5 > p,
+        .section-7 .texto-s7 > p,
+        .section-8 .texto-s8 > p,
+        .section-9 .texto-s9 > p,
+        .section-10 .texto-s10 > p,
+        .section-11 .texto-s11 > p,
+        .section-13 .texto-s13 > p,
+        .section-14 .texto-s14 > p,
+        .section-15 .texto-s15 > p{
+            font-size: 1rem !important;
+        }
+
+    /* Seção 1 Tablets*/
+    
+    .section-1 .texto-s1{
+        height: 60vh !important;
+    }
+    
         .texto-s1 > h1{
-            font-size: 2rem;
+            font-size: 3.4rem;
             font-weight: 600;
         }
 
-        .imagem-s1 > img{
-            width: 40% !important;
-            
-            position: absolute;
-            bottom: 0 !important;
+        .texto-s1 > .destaque-s1{
+            font-size: 1rem;
+            font-weight: 500;
+            letter-spacing: .3rem;
+            text-transform: uppercase;
+
+            border-radius: 8px;
+
+            margin: 5px 0;
+            padding: 5px 25px !important;
         }
+
+        .texto-s1 > p{
+            font-size: 1.2rem !important;
+            text-align: center;
+
+            width: 70%;
+        }
+
+        .imagem-s1 > img{
+            width: 50% !important;
+        }
+
+    .onda-s2{
+        height: 60px !important;
+    }
 
     /* Seção 2 Tablets*/
 
-    .section-2 .gif-s2{
-        display: none !important;
-    }   
+    .titulo-s2 > p{
+        font-size: 1rem;
 
-    .section-2 .texto-s2{
-        width: 60% !important;
-
-        margin: 0 auto;
-        margin-bottom: 40px;
+        width: 80% !important;
     }
 
-        .texto-s2 > ul{
-            list-style: none !important;
+    .cards-s2 > .card-s2{
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center !important;
 
-            margin: 0 !important;
-            padding: 0 !important;
-        }
-
-        .texto-s2 > ul > li{
-            display: flex !important;
-            flex-direction: row !important;
-            align-items: center !important;
-            justify-content: start !important;
-
-            font-size: 1rem;
-            font-weight: 700;
-
-            margin: 15px 0;
-        }
-        
-            li > .circulo-texto-s2{
-                display: flex !important;
-                align-items: center !important;
-                justify-content: center !important;
-
-                min-width: 35px;
-                height: 35px;
-
-                border-radius: 50%;
-
-                margin: 20px 20px 20px 0;
-            }
+        text-align: center !important;
+    }
 
     .onda-s3{
-        height: 70px !important;
+        height: 60px !important;
     }
 
     /* Seção 3 Tablets*/
 
-    .section-3 .row{
-        display: flex;
-        flex-direction: column-reverse;
+    .section-3{
+        max-height: unset;
     }
 
-        .imagem-s3 > img{
-            width: 40% !important;
-
-            position: absolute;
-            bottom: -80px !important;
-        }
-
-        .texto-s3 > h2{
-            font-size: 2rem;
-            font-weight: 600;
-            text-align: center;
-
-            width: 95%;
-
-            margin: 15px 0;
-        }
-
-        .texto-s3 > p{
-            font-size: 1.2rem;
-            text-align: center;
-
-            width: 90%;
-        }
-
-    /* .onda-s4{
-    } */
-
-    /* Seção 4 Tablets*/
-
-    .section-4 .row{
+    .section-3 > .row{
         display: flex !important;
         flex-direction: column-reverse !important;
     }
 
-        .imagem-s4 > img{
-            width: 35% !important;
-            
-            position: absolute;
-            bottom: -40px !important;
-        }
-
-    .section-4 .texto-s4{
-        padding: 20px !important;
-    }
-
-        .texto-s4 > h2{
-            font-size: 2rem;
-            font-weight: 600;
-            text-align: center;
-
-            width: 95%;
-
+        .texto-s3 > h2{  
             margin: 15px 0;
         }
-
-        .texto-s4 > p{
-            font-size: 1.2rem;
-            text-align: center;
-
-            width: 90%;
+    
+    .section-3 .imagem-s3{
+        margin: 50px 0;
+        padding: 0 !important;
+    }
+    
+        .imagem-s3 > img{
+            height: auto;
+            width: 60%;
+            max-width: 660px;
+    
+            position: absolute;
+            right: 0;
+            bottom: 0px;
         }
 
-    .onda-s5{
-        height: 80px !important;
+    .section-3 > .onda-s4{
+        height: 60px !important;
+    }
+
+    /* Seção 4 Tablets*/
+
+    .section-4{
+        max-height: unset;
+    }
+
+    .section-4 > .row{
+        display: flex !important;
+        flex-direction: column-reverse !important;
+    }
+
+    .section-4 .imagem-s4{
+        margin: 50px 0;
+    }
+    
+        .imagem-s4 > img{
+            height: auto;
+            width: 60%;
+            max-width: 610px;
+    
+            position: absolute;
+        }
+
+    .section-4 > .onda-s5{
+        height: 60px !important;
     }
 
     /* Seção 5 Tablets*/
 
-    .section-5 .row{
+    .section-5{
+        max-height: unset;
+    }
+
+    .section-5 > .row{
         display: flex !important;
         flex-direction: column-reverse !important;
     }
 
+    .section-5 .imagem-s5{
+        padding: 0 !important;
+    
+        position: relative;
+    }
+    
         .imagem-s5 > img{
-            width: 30% !important;
-            
+            width: 55%;
+            max-width: 620px !important;
+    
             position: absolute;
-            bottom: -80px !important;
-        }
-
-        .texto-s5 > h2{
-            font-size: 2rem;
-            font-weight: 600;
-            text-align: center;
-
-            width: 95%;
-
-            margin: 15px 0;
-        }
-
-        .texto-s5 > p{
-            color: var(--cor-fonte);
-            font-size: 1rem;
-            text-align: center;
-
-            width: 90%;
-        }
-
-        .onda-s6{
-            height: 80px !important;
+            right: 120px;
+            bottom: 0;
         }
 
     /* Seção 6 Tablets*/
 
-    .section-6 .row{
+    .section-6{
+        max-height: unset !important;
+        height: auto;
+    }
+
+    .section-6 > .row{
         display: flex !important;
         flex-direction: column-reverse !important;
     }
 
-        .imagem-s6 > img{
-            width: 35% !important;
-            
-            position: absolute;
-            bottom: -60px !important;
-        }
+    .section-6 .conteudo-s6{
+        display: flex !important;
+        flex-direction: column !important;
+        flex-wrap: wrap !important;
+        align-items: center !important;
+        justify-content: center !important;
+        
+        padding: 40px 15px;
 
-    .section-6 .texto-s6{
-        padding: 0 !important;
+        height: auto !important;
+        min-height: 100vh !important;
     }
 
-        .texto-s6 > h2{
-            font-size: 2rem;
-            font-weight: 600;
-            text-align: center;
+        .conteudo-s6 > .titulo-s6{
+            display: flex !important;
+            flex-direction: column !important;
+            align-items: flex-end !important;
+            justify-content: center !important;
 
             width: 95%;
 
-            margin: 15px 0;
+            margin: 0 auto !important;
         }
 
-        .texto-s6 > p{
+            .titulo-s6 > img{
+                width: 50% !important;
+
+                margin: 5px auto !important;
+            }
+
+            .titulo-s6 > p{
+                font-size: 1.6rem;
+                font-weight: bold;
+                text-align: center !important;
+
+                padding: 0 25px;
+                margin: 5px auto !important;
+            }
+
+        .conteudo-s6 > .cards-s6{
+            display: flex;
+            flex-direction: row !important;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center !important;
+        }
+
+            .cards-s6 > .card-s6{
+                display: flex !important;
+                flex-direction: column !important;
+                align-items: center !important;
+
+                width: 40%;
+
+                margin-right: 0 !important;
+                margin-bottom: 25px;
+            }
+
+                .card-s6 > .icone-card-s6{
+                    display: flex !important;
+                    justify-content: center !important;
+
+                    width: 100%;
+                    margin: 15px 0;
+                }
+
+                    .icone-card-s6 img{
+                        width: 10%;
+                        max-width: unset;
+                        height: auto;
+                    }
+
+                .card-s6 > p{
+                    font-size: 1rem;
+                    font-weight: 400;
+
+                    text-align: center;
+                }
+            
+            .cards-s6 > .btn-s6{
+                font-size: 1.2rem;
+                font-weight: bold;
+                text-transform: uppercase;
+
+                padding: 5px 20px;
+                margin: 0 auto !important;
+
+                cursor: pointer;
+                transition: .2s ease-out;
+            }
+
+            .section-6 .imagem-s6{
+                display: flex !important;
+                flex-direction: column !important;
+                align-items: center !important;
+                justify-content: center !important;
+                
+                height: auto !important;
+                min-height: 100vh !important;
+        
+                position: relative;
+            }
+        
+                .imagem-s6 > img{
+                    width: 45% !important;
+        
+                    position: absolute;
+                    bottom: 0;
+                }
+
+    /* Seção pag */
+
+    .section-pag .titulo-pag{
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center !important;
+
+        padding: 30px 20px 0 20px !important;
+    }
+
+        .titulo-pag > small{
+            color: var(--cor-fonte);
             font-size: 1.2rem;
+            font-weight: 600;
             text-align: center;
-
-            width: 90%;
         }
 
-    .onda-s7{
-        height: 80px !important;
+        .titulo-pag > h2{
+            color: var(--cor-fonte);
+            font-size: 3rem;
+            font-weight: 600;
+            text-align: center;
+        }
+
+    .section-7 > .onda-s7{
+        height: 40px !important;
     }
 
     /* Seção 7 Tablets*/
+
+    .section-7{
+        max-height: unset !important;
+    }
+
+    .section-7 > .row{
+        display: flex !important;
+        flex-direction: column-reverse !important;
+    }
+
+    .section-7 .imagem-s7{
+        padding: 0 !important;
+    
+        position: relative;
+    }
+    
+        .imagem-s7 > img{
+            width: 60% !important;
+            max-width: unset !important;
+    
+            position: absolute;
+            right: -35px;
+            bottom: -130px;
+        }
+
+    .section-7 > .onda-s8{
+        height: 60px !important;
+
+        position: relative !important;
+        z-index: 1000 !important;
+    }
+
+    /* Seção 8 Tablets*/
+
+    .section-8{    
+        max-height: unset !important;
+    }
+
+    .section-8 > .row{
+        display: flex !important;
+        flex-direction: column-reverse !important;
+    }
+
+    .section-8 .imagem-s8{
+        margin: 50px 0;
+        padding: 0 !important;
+    
+        position: relative;
+    }
+    
+        .imagem-s8 > img{
+            width: 60% !important;
+            height: auto !important;
+        }
+
+    .section-8 > .onda-s9{
+        height: 60px !important;
+    }
+
+    /* Seção 9 Tablets*/
+
+    .section-9{    
+        max-height: unset !important;
+    }
+
+    .section-9 > .row{
+        display: flex !important;
+        flex-direction: column-reverse !important;
+    }
+
+    .section-9 .imagem-s9{   
+        padding: 0 !important;
+    
+        position: relative;
+    }
+    
+        .imagem-s9 > img{
+            width: 60% !important;
+
+            position: absolute;
+            right: 80px;
+        }
+
+    .section-9 > .onda-s10{
+        height: 60px !important;
+    }
+
+    /* Seção 10 Tablets*/
+
+    .section-10{    
+        max-height: unset !important;
+    }
+
+    .section-10 > .row{
+        display: flex !important;
+        flex-direction: column-reverse !important;
+    }
+
+    .section-10 .imagem-s10{   
+        padding: 0 !important;
+    
+        height: 70vh !important;
+
+        position: relative;
+    }
+    
+        .imagem-s10 > img{
+            width: 60% !important;
+
+            position: absolute;
+            right: 160px;
+            bottom: -60px;
+        }
+
+    .section-10 > .onda-s11{
+        height: 60px !important;
+    }
+
+    /* Seção 11 Tablets*/
+
+    .section-11{    
+        max-height: unset !important;
+    }
+
+    .section-11 > .row{
+        display: flex !important;
+        flex-direction: column-reverse !important;
+    }
+
+    .section-11 .imagem-s11{   
+        padding: 0 !important;
+    
+        height: 70vh !important;
+
+        position: relative;
+    }
+    
+        .imagem-s11 > img{
+            width: 50% !important;
+
+            position: absolute;
+            right: 220px;
+        }
+
+    .section-11 > .onda-s11{
+        height: 120px !important;
+    }
+    
+    /* Seção 12 Tablets*/
+
+        .texto-s12 h2{
+            font-size: 1.6rem;
+
+            width: 100%;
+        }
+
+        .texto-s12 p{
+            font-size: 1.2rem;
+
+            width: 100%;
+        }
+
+    .section-12 > .onda-s13{
+        height: 30px !important;
+    }
+
+    /* Seção 13 Tablets*/
+
+    .section-13{
+        max-height: unset !important;
+    }
+
+    .section-13 > .row{
+        display: flex !important;
+        flex-direction: column-reverse;
+    }
+
+        .imagem-s13 > img{
+            width: 70% !important;
+
+            margin: 0 auto !important;
+
+            position: relative !important;
+            bottom: 50px !important;
+        }
+
+    .section-13 > .onda-s14{
+        height: 80px !important;
+    }
+
+    /* Seção 14 Tablets*/
+
+    .section-14{
+        max-height: unset !important;
+    }
+
+    .section-14 > .row{
+        display: flex !important;
+        flex-direction: column-reverse !important;
+    }
+
+    .section-14 .imagem-s14{   
+        padding: 0 !important;
+    
+        height: 70vh !important;
+
+        position: relative;
+    }
+    
+        .imagem-s14 > img{
+            width: 60% !important;
+
+            margin: 0 auto !important;
+
+            position: relative !important;
+            bottom: 0 !important;
+        }
+
+    .section-14 > .onda-s15{
+        height: 80px !important;
+    }
+
+    /* Seção 15 Tablets*/
+
+    .section-15{
+        max-height: unset !important;
+    }
+
+    .section-15 > .row{
+        display: flex !important;
+        flex-direction: column-reverse !important;
+    }
+
+        .imagem-s15 > img{
+            width: 30% !important;
+
+            margin: 0 auto !important;
+
+            position: relative !important;
+            bottom: 0 !important;
+        }
+
+    /* Seção 16 */
+
+        .titulo-s16 > h2{
+            font-size: 1.6rem;
+            font-weight: bold;
+            text-align: center;
+
+            width: 80%;
+        }
+
+        .section-16 .cards-s16{
+            display: flex !important;
+            flex-direction: row !important;
+            flex-wrap: wrap !important;
+        }
+
+            .cards-s16 .card-s16{
+                width: 40% !important;
+                max-width: 330px;
+
+                margin-bottom: 20px;
+            }
+
 }
 
 /* Telas Pequenas */
